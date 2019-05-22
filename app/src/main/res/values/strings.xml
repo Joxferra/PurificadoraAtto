@@ -70,7 +70,7 @@
     <string name="ubicacion_txt">Ubicacion:</string>
     <string name="title_activity_entrada_salida_venta">entrada_salida_venta</string>
 
-    <!--String de la pantalla de contrrol de medicion fabrica-->
+    <!--String de la pantalla de control de medicion fabrica-->
     <string name="txtencabezadomedicion">CONTROL DE MEDICION DE FILTROS Y OSMOSIS:</string>
     <string name="txtnombrePersonal">Nombre personal:</string>
     <string name="txtfecha">Fecha:</string>
