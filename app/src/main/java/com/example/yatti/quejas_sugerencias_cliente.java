@@ -4,12 +4,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class solicitar_servicio extends AppCompatActivity {
+public class quejas_sugerencias_cliente extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_solicitar_servicio);
+        setContentView(R.layout.activity_quejas_sugerencias_cliente);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,7 +17,7 @@ public class solicitar_servicio extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Solicitar Servicio");
+            actionBar.setTitle("Quejas y Sugerencias");
         }
     }
 }

@@ -1,15 +1,15 @@
 package com.example.yatti;
 
-import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class control_medicion_fabrica extends AppCompatActivity {
+public class programar_servicio_cliente extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_medicion_fabrica);
+        setContentView(R.layout.activity_programar_servicio_cliente);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,8 +17,7 @@ public class control_medicion_fabrica extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Control de medicion de filtros y osmosis");
-
+            actionBar.setTitle("Programar Servicio");
         }
     }
 }

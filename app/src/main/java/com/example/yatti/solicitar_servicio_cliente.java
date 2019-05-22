@@ -4,12 +4,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class programar_servicio extends AppCompatActivity {
+public class solicitar_servicio_cliente extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_programar_servicio);
+        setContentView(R.layout.activity_solicitar_servicio_cliente);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,7 +17,7 @@ public class programar_servicio extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Programar Servicio");
+            actionBar.setTitle("Solicitar Servicio");
         }
     }
 }
