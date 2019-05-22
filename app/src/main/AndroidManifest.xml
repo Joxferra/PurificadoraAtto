@@ -20,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".alta_personal"></activity>
+        <activity android:name=".alta_personal" />
         <activity android:name=".control_personal_clientes" />
         <activity android:name=".control_vendedor_geoposicion" />
         <activity android:name=".control_entrada_salida" />
