@@ -113,4 +113,11 @@
     <string name="nom_promocion_txt">Nombre Promocion:</string>
     <string name="fecha_inicio_txt">Fecha de Inicio:</string>
     <string name="fecha_fin_txt">Fecha Fin:</string>
+
+    <string name="mantenimiento_button">Mantenimeinto</string>
+    <string name="inventarios_button">Inventarios</string>
+    <string name="corte_dia_button">Corte del Dia</string>
+
+
+
 </resources>
