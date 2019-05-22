@@ -4,12 +4,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class control_vendedor_geoposicion extends AppCompatActivity {
+public class control_entrada_salida_admon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_vendedor_geoposicion);
+        setContentView(R.layout.activity_control_entrada_salida_admon);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,9 +17,8 @@ public class control_vendedor_geoposicion extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Control del Vendedor por Geoposicionamiento");
+            actionBar.setTitle("Control de Entradas y Salida");
 
         }
     }
 }
-

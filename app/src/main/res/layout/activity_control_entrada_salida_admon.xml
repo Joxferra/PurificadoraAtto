@@ -4,246 +4,216 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".alta_clientes">
+    tools:context=".control_entrada_salida_admon">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="90dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp "
+            android:layout_margin="20dp"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/textView17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/nombre_pantalla_solservi"
-                    android:textSize="24sp" />
+                    android:text="@string/fecha_quejas" />
 
                 <EditText
-                    android:id="@+id/editText27"
+                    android:id="@+id/editText9"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp "
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView37"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/fecha_nacimiento"
-                    android:textSize="24sp" />
-
-                <EditText
-                    android:id="@+id/editText29"
-                    android:layout_width="104dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="date" />
 
                 <ImageButton
-                    android:id="@+id/imageButton17"
+                    android:id="@+id/imageButton5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:tint="@android:color/background_dark"
                     app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView38"
+                    android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ciudad_txt"
-                    android:textSize="24sp" />
+                    android:text="@string/cargo_entradas_salidas" />
+
+                <Spinner
+                    android:id="@+id/spinnerregeneracion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nombre_pantalla_solservi" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hora_entrada" />
 
                 <EditText
-                    android:id="@+id/editText30"
+                    android:id="@+id/editText15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="time" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView39"
+                    android:id="@+id/textView22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/colonia_txt"
-                    android:textSize="24sp" />
+                    android:layout_weight="1"
+                    android:text="@string/hora_inicio_ruta" />
 
                 <EditText
-                    android:id="@+id/editText31"
+                    android:id="@+id/editText16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="time" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView40"
+                    android:id="@+id/textView23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Calle_txt"
-                    android:textSize="24sp" />
+                    android:layout_weight="1"
+                    android:text="@string/hora_venta" />
 
                 <EditText
-                    android:id="@+id/editText32"
+                    android:id="@+id/editText17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="time" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView41"
+                    android:id="@+id/textView24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/numero_casa_txt"
-                    android:textSize="24sp" />
+                    android:layout_weight="1"
+                    android:text="@string/hora_abastecimiento" />
 
                 <EditText
-                    android:id="@+id/editText33"
+                    android:id="@+id/editText18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
-
+                    android:inputType="time" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView42"
+                    android:id="@+id/textView25"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/telefono"
-                    android:textSize="24sp" />
+                    android:layout_weight="1"
+                    android:text="@string/hora_salida" />
 
                 <EditText
-                    android:id="@+id/editText34"
+                    android:id="@+id/editText19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="phone" />
+                    android:inputType="time" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView43"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/ubicacion_txt"
-                    android:textSize="24sp" />
-
-                <EditText
-                    android:id="@+id/editText35"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="50dp"
+                android:layout_margin="10dp"
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/ic_menu_save" />
-
-                <ImageButton
-                    android:id="@+id/imageButton19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/ic_menu_search" />
-
-                <ImageButton
-                    android:id="@+id/imageButton20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/ic_menu_delete" />
-
-                <ImageButton
-                    android:id="@+id/imageButton21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/ic_menu_rotate" />
-
-                <ImageButton
-                    android:id="@+id/imageButton22"
+                    android:id="@+id/imageButton6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@android:drawable/ic_delete" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:tint="#41090808"
+                    app:srcCompat="@android:drawable/checkbox_on_background" />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

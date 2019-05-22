@@ -13,18 +13,18 @@
             android:name=".entrada_salida_venta"
             android:label="@string/title_activity_entrada_salida_venta"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".alta_clientes">
+        <activity android:name=".alta_clientes_admon">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".alta_personal"></activity>
-        <activity android:name=".control_personal_clientes" />
-        <activity android:name=".control_vendedor_geoposicion" />
-        <activity android:name=".control_entrada_salida" />
-        <activity android:name=".control_fabricacion" />
+        <activity android:name=".alta_personal_admon"></activity>
+        <activity android:name=".control_personal_clientes_admon" />
+        <activity android:name=".control_vendedor_geoposicion_admon" />
+        <activity android:name=".control_entrada_salida_admon" />
+        <activity android:name=".control_fabricacion_admon" />
         <activity android:name=".quejas_sugerencias" />
         <activity android:name=".programar_servicio" />
         <activity android:name=".solicitar_servicio" />
