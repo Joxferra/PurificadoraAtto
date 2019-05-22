@@ -110,5 +110,7 @@
     <string name="txtrecibidavendedor">Garrafones recibidos del vendedor:</string>
     <string name="txtobeservacion">Observaciones:</string>
 
-
+    <string name="nom_promocion_txt">Nombre Promocion:</string>
+    <string name="fecha_inicio_txt">Fecha de Inicio:</string>
+    <string name="fecha_fin_txt">Fecha Fin:</string>
 </resources>
