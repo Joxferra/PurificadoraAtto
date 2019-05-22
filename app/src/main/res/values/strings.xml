@@ -99,4 +99,16 @@
     <string name="txtestatus">Estutus:</string>
     <string name="txtdescripcion">Descripcion:</string>
 
+    <!--String de pantalla de control de fabricacion-->
+    <string name="txtencabezadofabricacion">Nombre:</string>
+    <string name="txtfechafabricacion">Fecha:</string>
+    <string name="txthorafabricacion">Hora:</string>
+    <string name="txtnombrefabricacion">Nombre:</string>
+    <string name="txtcantidad">Cantidad de garrafones:</string>
+    <string name="txtgarrafonespuri">Garrafones purificados:</string>
+    <string name="txtentregavendedor">Garrafones entregados al vendedor:</string>
+    <string name="txtrecibidavendedor">Garrafones recibidos del vendedor:</string>
+    <string name="txtobeservacion">Observaciones:</string>
+
+
 </resources>
