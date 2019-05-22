@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".control_vendedor_geoposicion">
+    tools:context=".control_vendedor_geoposicion_admon">
 
     <ScrollView
         android:layout_width="match_parent"
