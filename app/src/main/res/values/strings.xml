@@ -70,7 +70,7 @@
     <string name="ubicacion_txt">Ubicacion:</string>
     <string name="title_activity_entrada_salida_venta">entrada_salida_venta</string>
 
-    <!--String de la pantalla de contrrol de medicion-->
+    <!--String de la pantalla de contrrol de medicion fabrica-->
     <string name="txtencabezadomedicion">CONTROL DE MEDICION DE FILTROS Y OSMOSIS:</string>
     <string name="txtnombrePersonal">Nombre personal:</string>
     <string name="txtfecha">Fecha:</string>
@@ -81,7 +81,7 @@
     <string name="txtsolido">Solidos Disueltos:</string>
     <string name="txtdureza">Dureza:</string>
 
-    <!--String de la pantalla de retrolavado y regeneracion-->
+    <!--String de la pantalla de retrolavado y regeneracion fabrica-->
     <string name="txtencabezadoretrolavado">RETROLAVADO Y REGENERACION</string>
     <string name="txtnombrePersonalR">Nombre personal:</string>
     <string name="txtfecharetroege">Fecha:</string>
@@ -91,4 +91,12 @@
     <string name="checkarena">Arena</string>
     <string name="checkcarbon">Carbòn</string>
     <string name="checksuavizante">Suavizante</string>
+
+    <!--String de pantalla de botellones fabrica-->
+    <string name="txtencabezadobotellones">BOTELLONES</string>
+    <string name="txtcodigo">Codigo:</string>
+    <string name="txtfechaalta">Fecha alta:</string>
+    <string name="txtestatus">Estutus:</string>
+    <string name="txtdescripcion">Descripcion:</string>
+
 </resources>
