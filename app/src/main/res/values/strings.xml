@@ -70,5 +70,25 @@
     <string name="ubicacion_txt">Ubicacion:</string>
     <string name="title_activity_entrada_salida_venta">entrada_salida_venta</string>
 
+    <!--String de la pantalla de contrrol de medicion-->
+    <string name="txtencabezadomedicion">CONTROL DE MEDICION DE FILTROS Y OSMOSIS:</string>
+    <string name="txtnombrePersonal">Nombre personal:</string>
+    <string name="txtfecha">Fecha:</string>
+    <string name="txthora">Hora:</string>
+    <string name="txtseleccionar">Seleccionar opcion:</string>
+    <string name="txtph">PH:</string>
+    <string name="txtcloro">Cloro:</string>
+    <string name="txtsolido">Solidos Disueltos:</string>
+    <string name="txtdureza">Dureza:</string>
 
+    <!--String de la pantalla de retrolavado y regeneracion-->
+    <string name="txtencabezadoretrolavado">RETROLAVADO Y REGENERACION</string>
+    <string name="txtnombrePersonalR">Nombre personal:</string>
+    <string name="txtfecharetroege">Fecha:</string>
+    <string name="txthoraretrorege">Hora:</string>
+    <string name="txtretrolavado">Retrolavado:</string>
+    <string name="txtregeneracion">Regeneracion:</string>
+    <string name="checkarena">Arena</string>
+    <string name="checkcarbon">Carbòn</string>
+    <string name="checksuavizante">Suavizante</string>
 </resources>
