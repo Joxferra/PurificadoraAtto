@@ -9,7 +9,7 @@ public class control_medicion_fabrica extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_medicion);
+        setContentView(R.layout.activity_control_medicion_fabrica);
         setupActionBar();
     }
     private void setupActionBar() {
