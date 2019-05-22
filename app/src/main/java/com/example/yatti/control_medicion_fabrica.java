@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
-public class control_medicion extends AppCompatActivity {
+public class control_medicion_fabrica extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
