@@ -16,7 +16,8 @@ public class retrolavado_regeneracion extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Control de medicion de filtros y osmosis");
+            actionBar.setTitle("Retrolavado y Regeneracion" +
+                    "");
 
         }
     }
