@@ -21,9 +21,9 @@
         <activity android:name=".control_vendedor_geoposicion_admon" />
         <activity android:name=".control_entrada_salida_admon" />
         <activity android:name=".control_fabricacion_admon" />
-        <activity android:name=".quejas_sugerencias" />
-        <activity android:name=".programar_servicio" />
-        <activity android:name=".solicitar_servicio" />
+        <activity android:name=".quejas_sugerencias_cliente" />
+        <activity android:name=".programar_servicio_cliente" />
+        <activity android:name=".solicitar_servicio_cliente" />
         <activity
             android:name=".menu_fabrica"
             android:label="@string/title_activity_menu_fabrica"
