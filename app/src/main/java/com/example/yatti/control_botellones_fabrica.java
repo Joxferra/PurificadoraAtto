@@ -9,7 +9,7 @@ public class control_botellones_fabrica extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_medicion_fabrica);
+        setContentView(R.layout.activity_control_botellones_fabrica);
         setupActionBar();
     }
     private void setupActionBar() {
