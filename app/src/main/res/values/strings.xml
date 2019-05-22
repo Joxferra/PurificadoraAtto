@@ -68,6 +68,7 @@
     <string name="Calle_txt">Calle:</string>
     <string name="numero_casa_txt">Numero de Casa:</string>
     <string name="ubicacion_txt">Ubicacion:</string>
+    <string name="title_activity_entrada_salida_venta">entrada_salida_venta</string>
 
 
 </resources>
