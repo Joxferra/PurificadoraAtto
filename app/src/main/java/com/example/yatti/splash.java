@@ -1,6 +1,7 @@
 package com.example.yatti;
 
 import android.animation.ObjectAnimator;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Handler;
@@ -10,7 +11,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
 
-public class splash extends AppCompatActivity {
+public class splash extends Activity {
     private ProgressBar progressBar;
     private ProgressBar progressBarAnimation;
     private ObjectAnimator progressAnimator;
