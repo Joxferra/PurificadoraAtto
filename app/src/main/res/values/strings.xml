@@ -122,4 +122,14 @@
     <string name="fecha_registro_txt">Fecha de registro:</string>
     <string name="descripcion_txt">Descripcion:</string>
 
+    <string name="alta_materiales_txt">Alta de Materiales</string>
+    <string name="cantidad_txt">Cantidad:</string>
+
+    <string name="cantidad_vendida_txt">Cantidad vendida:</string>
+    <string name="total_venta_txt">Total de venta:</string>
+    <string name="credito_txt">Credito:</string>
+    <string name="sobrante_txt">Sobrante:</string>
+
+
+
 </resources>

@@ -6,12 +6,12 @@ import android.os.Bundle;
 
 import com.example.yatti.R;
 
-public class promociones_admon extends AppCompatActivity {
+public class inventario_admon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_promociones_admon);
+        setContentView(R.layout.activity_inventario_admon);
         setupActionBar();
     }
 
@@ -20,7 +20,7 @@ public class promociones_admon extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Promociones");
+            actionBar.setTitle("Inventario");
 
         }
 
