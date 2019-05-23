@@ -1,5 +1,6 @@
 package com.example.yatti.Menu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
+import com.example.yatti.Fabricacion.control_botellones_fabrica;
+import com.example.yatti.Fabricacion.control_medicion_fabrica;
+import com.example.yatti.Fabricacion.retrolavado_regeneracion_fabrica;
 import com.example.yatti.R;
 
 public class menu_fabrica extends AppCompatActivity
@@ -80,15 +84,34 @@ public class menu_fabrica extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_Entrada_fabrica) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_Mediciones_fabrica) {
+            Intent Inicio = new Intent(this, control_medicion_fabrica.class);
+            startActivity(Inicio);
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.nav_Retrolavado_fabrica) {
+            Intent Inicio = new Intent(this, retrolavado_regeneracion_fabrica.class);
+            startActivity(Inicio);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_Control_fabrica) {
+
+        }else if (id == R.id.nav_botellones_fabrica) {
+            Intent Inicio = new Intent(this, control_botellones_fabrica.class);
+            startActivity(Inicio);
+
+        }else if (id == R.id.nav_ventas_fabrica) {
+
+        }else if (id == R.id.nav_censo_fabrica) {
+
+        }else if (id == R.id.nav_segunda_parte_fabrica) {
+
+        }else if (id == R.id.nav_tercera_parte_fabrica) {
+
+        }else if (id == R.id.nav_cuarta_parte_fabrica) {
+
+        }
+        else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 

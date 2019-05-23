@@ -96,9 +96,7 @@ public class menu_cliente extends AppCompatActivity
             Intent Inicio = new Intent(this, quejas_sugerencias_cliente.class);
             startActivity(Inicio);
 
-        } else if (id == R.id.nav_tools) {
-
-        } else if (id == R.id.nav_share) {
+        }  else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 

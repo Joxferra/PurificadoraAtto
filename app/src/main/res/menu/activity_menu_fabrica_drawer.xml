@@ -5,43 +5,43 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_Entrada_fabrica"
             android:icon="@drawable/ic_menu_camera"
             android:title="Entrada y Salida del Personal" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_Mediciones_fabrica"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Control de Mediciones(Filtros y Osmosis" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_Retrolavado_fabrica"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Retrolavado y Regeneracion" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/nav_Control_fabrica"
             android:icon="@drawable/ic_menu_manage"
             android:title="Control de Fabricacion" />
         <item
-            android:id="@+id/nav_alta_botellones"
+            android:id="@+id/nav_botellones_fabrica"
             android:icon="@drawable/ic_menu_share"
             android:title="Alta de Botellones" />
         <item
-            android:id="@+id/nav_realizar_ventas"
+            android:id="@+id/nav_ventas_fabrica"
             android:icon="@drawable/ic_menu_share"
             android:title="Realizar Ventas" />
         <item
-            android:id="@+id/nav_censo"
+            android:id="@+id/nav_censo_fabrica"
             android:icon="@drawable/ic_menu_send"
             android:title="Censo" />
         <item
-            android:id="@+id/nav_segunda_parte"
+            android:id="@+id/nav_segunda_parte_fabrica"
             android:icon="@drawable/ic_menu_send"
             android:title="Segunda Parte del Censo" />
         <item
-            android:id="@+id/nav_tercera_parte"
+            android:id="@+id/nav_tercera_parte_fabrica"
             android:icon="@drawable/ic_menu_send"
             android:title="Tercera Parte del Censo" />
         <item
-            android:id="@+id/nav_cuarta_parte"
+            android:id="@+id/nav_cuarta_parte_fabrica"
             android:icon="@drawable/ic_menu_send"
             android:title="Cuarta Parte del Censo" />
 

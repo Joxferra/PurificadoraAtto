@@ -18,8 +18,11 @@ import android.view.Menu;
 import com.example.yatti.Administracion.alta_clientes_admon;
 import com.example.yatti.Administracion.control_entrada_salida_admon;
 import com.example.yatti.Administracion.control_fabricacion_admon;
+import com.example.yatti.Administracion.control_material_admon;
 import com.example.yatti.Administracion.control_personal_clientes_admon;
 import com.example.yatti.Administracion.control_vendedor_geoposicion_admon;
+import com.example.yatti.Administracion.corte_dia_admon;
+import com.example.yatti.Administracion.mantenimiento_admon;
 import com.example.yatti.Administracion.promociones_admon;
 import com.example.yatti.R;
 
@@ -112,10 +115,16 @@ public class menu_administracion extends AppCompatActivity
             startActivity(Inicio);
 
         } else if (id == R.id.nav_mantenimiento) {
+            Intent Inicio = new Intent(this, mantenimiento_admon.class);
+            startActivity(Inicio);
 
         } else if (id == R.id.nav_materiales) {
+            Intent Inicio = new Intent(this, control_material_admon.class);
+            startActivity(Inicio);
 
         } else if (id == R.id.nav_corte) {
+            Intent Inicio = new Intent(this, corte_dia_admon.class);
+            startActivity(Inicio);
 
 
         }
