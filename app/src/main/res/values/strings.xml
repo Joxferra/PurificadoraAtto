@@ -118,6 +118,8 @@
     <string name="inventarios_button">Inventarios</string>
     <string name="corte_dia_button">Corte del Dia</string>
 
-
+    <string name="equipos_materiales_txt">Equipos y Materiales</string>
+    <string name="fecha_registro_txt">Fecha de registro:</string>
+    <string name="descripcion_txt">Descripcion:</string>
 
 </resources>
