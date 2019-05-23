@@ -22,7 +22,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/txtFechaVen"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -69,7 +69,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/txtCargoVen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nombre:" />
@@ -88,7 +88,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/txtNomVentaCli"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/cantidad_garrafon_lav" />
@@ -108,7 +108,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/txtNomVenta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -129,7 +129,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/etHoraVen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
