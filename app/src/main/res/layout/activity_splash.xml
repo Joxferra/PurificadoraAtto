@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="-70dp"
         android:indeterminate="true"
-        android:progressTint="@color/colorAccent"
+        android:progressTint="@color/design_default_color_primary"
         android:secondaryProgressTint="@color/colorPrimaryDark" />
 
 </LinearLayout>
