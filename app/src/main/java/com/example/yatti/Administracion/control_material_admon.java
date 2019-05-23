@@ -20,7 +20,7 @@ public class control_material_admon extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Alta Cliente");
+            actionBar.setTitle("Control de Material");
 
         }
     }
