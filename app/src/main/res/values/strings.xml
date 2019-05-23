@@ -72,9 +72,9 @@
 
     <!--String de la pantalla de control de medicion fabrica-->
     <string name="txtencabezadomedicion">CONTROL DE MEDICION DE FILTROS Y OSMOSIS:</string>
-    <string name="txtnombrePersonal">Nombre personal:</string>
-    <string name="txtfecha">Fecha:</string>
-    <string name="txthora">Hora:</string>
+    <string name="txtnombrePersonalcontrol">Nombre personal:</string>
+    <string name="txtfechacontrol">Fecha:</string>
+    <string name="txthoracontrol">Hora:</string>
     <string name="txtseleccionar">Seleccionar opcion:</string>
     <string name="txtph">PH:</string>
     <string name="txtcloro">Cloro:</string>
