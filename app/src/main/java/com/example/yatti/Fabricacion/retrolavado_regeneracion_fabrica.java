@@ -18,8 +18,7 @@ public class retrolavado_regeneracion_fabrica extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Retrolavado y Regeneracion" +
-                    "");
+            actionBar.setTitle("Retrolavado y Regeneracion");
 
         }
     }
