@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".menu_ventas"
+    tools:context=".Menu.menu_ventas"
     tools:showIn="@layout/app_bar_menu_ventas">
 
 </android.support.constraint.ConstraintLayout>

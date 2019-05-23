@@ -8,6 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.yatti.Menu.menu_administracion;
+import com.example.yatti.Menu.menu_cliente;
+import com.example.yatti.Menu.menu_fabrica;
+import com.example.yatti.Menu.menu_ventas;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -25,25 +30,25 @@ public class MainActivity extends AppCompatActivity {
 
                 if (name.equals("cliente") && pass.equals("cliente")){
 
-                    Intent intent =new Intent(MainActivity.this,menu_cliente.class);
+                    Intent intent =new Intent(MainActivity.this, menu_cliente.class);
                     startActivity(intent);
                 }
 
                 else if (name.equals("fabrica") && pass.equals("fabrica")){
 
-                    Intent intent =new Intent(MainActivity.this,menu_fabrica.class);
+                    Intent intent =new Intent(MainActivity.this, menu_fabrica.class);
                     startActivity(intent);
                 }
 
                 else if (name.equals("administracion") && pass.equals("administracion")){
 
-                    Intent intent =new Intent(MainActivity.this,menu_administracion.class);
+                    Intent intent =new Intent(MainActivity.this, menu_administracion.class);
                     startActivity(intent);
                 }
 
                 else if (name.equals("ventas") && pass.equals("ventas")){
 
-                    Intent intent =new Intent(MainActivity.this,menu_ventas.class);
+                    Intent intent =new Intent(MainActivity.this, menu_ventas.class);
                     startActivity(intent);
                 }
 

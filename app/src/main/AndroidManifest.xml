@@ -9,49 +9,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".control_material_admon"
-            android:parentActivityName=".menu_administracion"/>
-        <activity android:name=".promociones_admon"
-            android:parentActivityName=".menu_administracion"/>
-        <activity android:name=".alta_clientes_admon"
-            android:parentActivityName=".menu_administracion"/>
-        <activity android:name=".alta_personal_admon"
-            android:parentActivityName=".menu_administracion" />
-        <activity android:name=".control_personal_clientes_admon"
-            android:parentActivityName=".menu_administracion"/>
-        <activity android:name=".control_vendedor_geoposicion_admon"
-            android:parentActivityName=".menu_administracion"/>
-        <activity android:name=".control_entrada_salida_admon"
-            android:parentActivityName=".menu_administracion"/>
-        <activity android:name=".control_fabricacion_admon"
-            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".Administracion.control_material_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.promociones_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.alta_clientes_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.alta_personal_admon"
+            android:parentActivityName=".Menu.menu_administracion" />
+        <activity android:name=".Administracion.control_personal_clientes_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.control_vendedor_geoposicion_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.control_entrada_salida_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.control_fabricacion_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
 
 
 
-        <activity android:name=".quejas_sugerencias_cliente"
-            android:parentActivityName=".menu_cliente"/>
-        <activity android:name=".programar_servicio_cliente"
-            android:parentActivityName=".menu_cliente"/>
-        <activity android:name=".solicitar_servicio_cliente"
-            android:parentActivityName=".menu_cliente"/>
+        <activity android:name=".Clientes.quejas_sugerencias_cliente"
+            android:parentActivityName=".Menu.menu_cliente"/>
+        <activity android:name=".Clientes.programar_servicio_cliente"
+            android:parentActivityName=".Menu.menu_cliente"/>
+        <activity android:name=".Clientes.solicitar_servicio_cliente"
+            android:parentActivityName=".Menu.menu_cliente"/>
 
 
 
 
         <activity
-            android:name=".menu_fabrica"
+            android:name=".Menu.menu_fabrica"
             android:label="@string/title_activity_menu_fabrica"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".menu_ventas"
+            android:name=".Menu.menu_ventas"
             android:label="@string/title_activity_menu_ventas"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".menu_administracion"
+            android:name=".Menu.menu_administracion"
             android:label="@string/title_activity_menu_administracion"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".menu_cliente"
+            android:name=".Menu.menu_cliente"
             android:label="@string/title_activity_menu_cliente"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">

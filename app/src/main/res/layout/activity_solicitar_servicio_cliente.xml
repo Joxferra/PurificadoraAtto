@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".solicitar_servicio_cliente">
+    tools:context=".Clientes.solicitar_servicio_cliente">
 
     <ScrollView
         android:layout_width="match_parent"

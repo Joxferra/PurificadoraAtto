@@ -1,7 +1,9 @@
-package com.example.yatti;
+package com.example.yatti.Administracion;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.yatti.R;
 
 public class promociones_admon extends AppCompatActivity {
 

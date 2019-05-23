@@ -1,8 +1,10 @@
-package com.example.yatti;
+package com.example.yatti.Administracion;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.yatti.R;
 
 public class alta_clientes_admon extends AppCompatActivity {
 

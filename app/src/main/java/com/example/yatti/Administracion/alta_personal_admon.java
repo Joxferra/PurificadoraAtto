@@ -1,15 +1,17 @@
-package com.example.yatti;
+package com.example.yatti.Administracion;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class solicitar_servicio_cliente extends AppCompatActivity {
+import com.example.yatti.R;
+
+public class alta_personal_admon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_solicitar_servicio_cliente);
+        setContentView(R.layout.activity_alta_personal_admon);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,7 +19,9 @@ public class solicitar_servicio_cliente extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Solicitar Servicio");
+            actionBar.setTitle("Alta Personal");
+
         }
     }
 }
+

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mantenimiento_admon">
+    tools:context=".Administracion.mantenimiento_admon">
 
     <ScrollView
         android:layout_width="match_parent"

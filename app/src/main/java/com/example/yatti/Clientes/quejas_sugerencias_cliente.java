@@ -1,15 +1,17 @@
-package com.example.yatti;
+package com.example.yatti.Clientes;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class alta_personal_admon extends AppCompatActivity {
+import com.example.yatti.R;
+
+public class quejas_sugerencias_cliente extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alta_personal_admon);
+        setContentView(R.layout.activity_quejas_sugerencias_cliente);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,9 +19,7 @@ public class alta_personal_admon extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Alta Personal");
-
+            actionBar.setTitle("Quejas y Sugerencias");
         }
     }
 }
-

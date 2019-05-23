@@ -1,14 +1,17 @@
-package com.example.yatti;
+package com.example.yatti.Fabricacion;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
-public class retrolavado_regeneracion_fabrica extends AppCompatActivity {
+import com.example.yatti.R;
+
+public class control_botellones_fabrica extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_retrolavado_fabrica);
+        setContentView(R.layout.activity_control_botellones_fabrica);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -16,8 +19,7 @@ public class retrolavado_regeneracion_fabrica extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Retrolavado y Regeneracion" +
-                    "");
+            actionBar.setTitle("Botellones");
 
         }
     }

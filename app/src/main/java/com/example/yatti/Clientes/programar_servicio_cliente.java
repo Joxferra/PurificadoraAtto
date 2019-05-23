@@ -1,15 +1,17 @@
-package com.example.yatti;
+package com.example.yatti.Clientes;
 
-import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class control_botellones_fabrica extends AppCompatActivity {
+import com.example.yatti.R;
+
+public class programar_servicio_cliente extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_botellones_fabrica);
+        setContentView(R.layout.activity_programar_servicio_cliente);
         setupActionBar();
     }
     private void setupActionBar() {
@@ -17,8 +19,7 @@ public class control_botellones_fabrica extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Botellones");
-
+            actionBar.setTitle("Programar Servicio");
         }
     }
 }

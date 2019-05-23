@@ -1,4 +1,4 @@
-package com.example.yatti;
+package com.example.yatti.Menu;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,14 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+
+import com.example.yatti.Administracion.alta_clientes_admon;
+import com.example.yatti.Administracion.control_entrada_salida_admon;
+import com.example.yatti.Administracion.control_fabricacion_admon;
+import com.example.yatti.Administracion.control_personal_clientes_admon;
+import com.example.yatti.Administracion.control_vendedor_geoposicion_admon;
+import com.example.yatti.Administracion.promociones_admon;
+import com.example.yatti.R;
 
 public class menu_administracion extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -80,27 +88,27 @@ public class menu_administracion extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_fabricacion) {
-            Intent Inicio = new Intent(this,control_fabricacion_admon.class);
+            Intent Inicio = new Intent(this, control_fabricacion_admon.class);
             startActivity(Inicio);
 
         } else if (id == R.id.nav_EntradaSalida) {
-            Intent Inicio = new Intent(this,control_entrada_salida_admon.class);
+            Intent Inicio = new Intent(this, control_entrada_salida_admon.class);
             startActivity(Inicio);
 
         } else if (id == R.id.nav_PersonalAdmon) {
-            Intent Inicio = new Intent(this,control_personal_clientes_admon.class);
+            Intent Inicio = new Intent(this, control_personal_clientes_admon.class);
             startActivity(Inicio);
 
         } else if (id == R.id.nav_vendedor) {
-            Intent Inicio = new Intent(this,control_vendedor_geoposicion_admon.class);
+            Intent Inicio = new Intent(this, control_vendedor_geoposicion_admon.class);
             startActivity(Inicio);
 
         } else if (id == R.id.nav_Clientes) {
-            Intent Inicio = new Intent(this,alta_clientes_admon.class);
+            Intent Inicio = new Intent(this, alta_clientes_admon.class);
             startActivity(Inicio);
 
         } else if (id == R.id.nav_Promociones) {
-            Intent Inicio = new Intent(this,promociones_admon.class);
+            Intent Inicio = new Intent(this, promociones_admon.class);
             startActivity(Inicio);
 
         } else if (id == R.id.nav_mantenimiento) {

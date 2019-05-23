@@ -1,4 +1,4 @@
-package com.example.yatti;
+package com.example.yatti.Menu;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -14,13 +14,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
-public class menu_fabrica extends AppCompatActivity
+import com.example.yatti.R;
+
+public class menu_cliente extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_fabrica);
+        setContentView(R.layout.activity_menu_cliente);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -53,7 +55,7 @@ public class menu_fabrica extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_fabrica, menu);
+        getMenuInflater().inflate(R.menu.menu_cliente, menu);
         return true;
     }
 
@@ -78,11 +80,11 @@ public class menu_fabrica extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
+        if (id == R.id.nav_Solicitar) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_Programar) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_QuejasySugerencias) {
 
         } else if (id == R.id.nav_tools) {
 

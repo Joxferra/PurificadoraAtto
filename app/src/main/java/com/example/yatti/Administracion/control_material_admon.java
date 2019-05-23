@@ -1,26 +1,27 @@
-package com.example.yatti;
+package com.example.yatti.Administracion;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class mantenimiento_admon extends AppCompatActivity {
+import com.example.yatti.R;
+
+public class control_material_admon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mantenimiento_admon);
+        setContentView(R.layout.activity_control_material_admon);
         setupActionBar();
     }
+
     private void setupActionBar() {
         ActionBar actionBar = getSupportActionBar();
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Mantenimiento");
+            actionBar.setTitle("Alta Cliente");
 
         }
     }
 }
-
-
