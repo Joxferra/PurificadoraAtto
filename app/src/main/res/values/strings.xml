@@ -6,7 +6,7 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Cerrar sesión</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
@@ -129,6 +129,10 @@
     <string name="total_venta_txt">Total de venta:</string>
     <string name="credito_txt">Credito:</string>
     <string name="sobrante_txt">Sobrante:</string>
+
+    <string name="fecha_entrega_txt">Fecha de entrega:</string>
+
+
 
 
 
