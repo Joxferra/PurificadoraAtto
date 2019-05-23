@@ -11,5 +11,7 @@ public class control_fabricacion_venta extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_control_fabricacion_venta);
+
+
     }
 }
