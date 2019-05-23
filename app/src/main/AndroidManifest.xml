@@ -25,6 +25,12 @@
             android:parentActivityName=".Menu.menu_administracion"/>
         <activity android:name=".Administracion.control_fabricacion_admon"
             android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.corte_dia_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.inventario_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
+        <activity android:name=".Administracion.mantenimiento_admon"
+            android:parentActivityName=".Menu.menu_administracion"/>
 
 
 
@@ -34,6 +40,30 @@
             android:parentActivityName=".Menu.menu_cliente"/>
         <activity android:name=".Clientes.solicitar_servicio_cliente"
             android:parentActivityName=".Menu.menu_cliente"/>
+
+
+
+        <activity android:name=".Fabricacion.control_botellones_fabrica"
+            android:parentActivityName=".Menu.menu_fabrica"/>
+        <activity android:name=".Fabricacion.control_medicion_fabrica"
+            android:parentActivityName=".Menu.menu_fabrica"/>
+        <activity android:name=".Fabricacion.retrolavado_regeneracion_fabrica"
+            android:parentActivityName=".Menu.menu_fabrica"/>
+
+
+        <activity android:name=".Ventas.censo_venta"
+            android:parentActivityName=".Menu.menu_ventas"/>
+        <activity android:name=".Ventas.control_fabricacion_venta"
+            android:parentActivityName=".Menu.menu_ventas"/>
+        <activity android:name=".Ventas.corte_dia_venta"
+            android:parentActivityName=".Menu.menu_ventas"/>
+        <activity android:name=".Ventas.entrada_salida_venta"
+            android:parentActivityName=".Menu.menu_ventas"/>
+        <activity android:name=".Ventas.venta_clientes_venta"
+            android:parentActivityName=".Menu.menu_ventas"/>
+
+
+
 
        <activity android:name=".splash">
            android:name=".splash"

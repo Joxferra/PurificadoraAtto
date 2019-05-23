@@ -1,5 +1,6 @@
 package com.example.yatti.Menu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
+import com.example.yatti.Clientes.programar_servicio_cliente;
+import com.example.yatti.Clientes.quejas_sugerencias_cliente;
+import com.example.yatti.Clientes.solicitar_servicio_cliente;
 import com.example.yatti.R;
 
 public class menu_cliente extends AppCompatActivity
@@ -81,10 +85,16 @@ public class menu_cliente extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_Solicitar) {
-            // Handle the camera action
+            Intent Inicio = new Intent(this, solicitar_servicio_cliente.class);
+            startActivity(Inicio);
+
         } else if (id == R.id.nav_Programar) {
+            Intent Inicio = new Intent(this, programar_servicio_cliente.class);
+            startActivity(Inicio);
 
         } else if (id == R.id.nav_QuejasySugerencias) {
+            Intent Inicio = new Intent(this, quejas_sugerencias_cliente.class);
+            startActivity(Inicio);
 
         } else if (id == R.id.nav_tools) {
 
