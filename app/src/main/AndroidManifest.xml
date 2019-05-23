@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".control_material_admon"></activity>
+        <activity android:name=".mantenimiento_admon"></activity>
+        <activity android:name=".control_material_admon" />
         <activity android:name=".promociones_admon" />
-        <activity android:name=".alta_clientes_admon"></activity>
+        <activity android:name=".alta_clientes_admon" />
         <activity android:name=".alta_personal_admon" />
         <activity android:name=".control_personal_clientes_admon" />
         <activity android:name=".control_vendedor_geoposicion_admon" />

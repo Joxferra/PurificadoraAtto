@@ -5,15 +5,15 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_fabricacion"
             android:icon="@drawable/ic_menu_camera"
             android:title="Control de Fabricación" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_EntradaSalida"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Control de Entradas y salidas" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_vendedor"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Control del Vendedor" />
 
@@ -22,15 +22,15 @@
     <item android:title="Control de Personal">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_PersonalAdmon"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Personal" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_Clientes"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Clientes" />
             <item
-                android:id="@+id/nav_tools"
+                android:id="@+id/nav_Promociones"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="Promociones" />
         </menu>
@@ -46,7 +46,7 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Materiales" />
             <item
-                android:id="@+id/corte"
+                android:id="@+id/nav_corte"
                 android:icon="@drawable/ic_menu_manage"
                 android:title="Corte del Dia" />
         </menu>
