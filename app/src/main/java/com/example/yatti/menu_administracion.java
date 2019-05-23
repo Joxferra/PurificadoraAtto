@@ -1,5 +1,6 @@
 package com.example.yatti;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -78,17 +79,36 @@ public class menu_administracion extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_fabricacion) {
+            Intent Inicio = new Intent(this,control_fabricacion_admon.class);
+            startActivity(Inicio);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_EntradaSalida) {
+            Intent Inicio = new Intent(this,control_entrada_salida_admon.class);
+            startActivity(Inicio);
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.nav_PersonalAdmon) {
+            Intent Inicio = new Intent(this,control_personal_clientes_admon.class);
+            startActivity(Inicio);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_vendedor) {
+            Intent Inicio = new Intent(this,control_vendedor_geoposicion_admon.class);
+            startActivity(Inicio);
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_Clientes) {
+            Intent Inicio = new Intent(this,alta_clientes_admon.class);
+            startActivity(Inicio);
+
+        } else if (id == R.id.nav_Promociones) {
+            Intent Inicio = new Intent(this,promociones_admon.class);
+            startActivity(Inicio);
+
+        } else if (id == R.id.nav_mantenimiento) {
+
+        } else if (id == R.id.nav_materiales) {
+
+        } else if (id == R.id.nav_corte) {
+
 
         }
 
