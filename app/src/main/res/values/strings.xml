@@ -130,6 +130,10 @@
     <string name="credito_txt">Credito:</string>
     <string name="sobrante_txt">Sobrante:</string>
 
+    <string name="fecha_entrega_txt">Fecha de entrega:</string>
+
+
+
 
 
 </resources>
