@@ -1,5 +1,6 @@
 package com.example.yatti;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -78,10 +79,12 @@ public class menu_ventas extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
+        if (id == R.id.nav_Entrada_venta) {
+            Intent Inicio = new Intent(this,entrada_salida_venta.class);
+            startActivity(Inicio);
+        } else if (id == R.id.nav_Venta_cliente_venta) {
+            Intent Inicio = new Intent(this,venta_clientes_venta.class);
+            startActivity(Inicio);
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_tools) {

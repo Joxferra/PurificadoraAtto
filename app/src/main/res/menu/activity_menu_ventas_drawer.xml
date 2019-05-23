@@ -5,11 +5,11 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_Entrada_venta"
             android:icon="@drawable/ic_menu_camera"
             android:title="Control de Entradas y Salidas" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Surtido de Garrafones(C.Fabricacion)" />
         <item
@@ -17,7 +17,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Salida de Fabrica" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/nav_Venta_cliente_venta"
             android:icon="@drawable/ic_menu_manage"
             android:title="Venta a Cliente" />
 
