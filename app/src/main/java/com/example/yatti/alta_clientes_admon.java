@@ -17,7 +17,7 @@ public class alta_clientes_admon extends AppCompatActivity {
 
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Alta Clien");
+            actionBar.setTitle("Alta Cliente");
 
         }
     }

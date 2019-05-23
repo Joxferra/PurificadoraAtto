@@ -9,17 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".control_material_admon"></activity>
-        <activity android:name=".promociones_admon" />
-        <activity android:name=".alta_clientes_admon"></activity>
-        <activity android:name=".alta_personal_admon" />
-        <activity android:name=".control_personal_clientes_admon" />
-        <activity android:name=".control_vendedor_geoposicion_admon" />
-        <activity android:name=".control_entrada_salida_admon" />
-        <activity android:name=".control_fabricacion_admon" />
-        <activity android:name=".quejas_sugerencias_cliente" />
-        <activity android:name=".programar_servicio_cliente" />
-        <activity android:name=".solicitar_servicio_cliente" />
+        <activity android:name=".control_material_admon"
+            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".promociones_admon"
+            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".alta_clientes_admon"
+            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".alta_personal_admon"
+            android:parentActivityName=".menu_administracion" />
+        <activity android:name=".control_personal_clientes_admon"
+            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".control_vendedor_geoposicion_admon"
+            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".control_entrada_salida_admon"
+            android:parentActivityName=".menu_administracion"/>
+        <activity android:name=".control_fabricacion_admon"
+            android:parentActivityName=".menu_administracion"/>
+
+
+
+        <activity android:name=".quejas_sugerencias_cliente"
+            android:parentActivityName=".menu_cliente"/>
+        <activity android:name=".programar_servicio_cliente"
+            android:parentActivityName=".menu_cliente"/>
+        <activity android:name=".solicitar_servicio_cliente"
+            android:parentActivityName=".menu_cliente"/>
+
+
+
+
         <activity
             android:name=".menu_fabrica"
             android:label="@string/title_activity_menu_fabrica"
