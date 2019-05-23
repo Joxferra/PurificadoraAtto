@@ -22,6 +22,7 @@ public class promociones_admon extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setTitle("Promociones");
 
+
         }
 
     }
