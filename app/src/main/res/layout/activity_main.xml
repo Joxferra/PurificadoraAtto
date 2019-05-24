@@ -32,6 +32,7 @@
                     android:text="@string/titulo_login"
                     android:textColor="#036C9C"
                     android:textSize="36sp" />
+
             </LinearLayout>
 
             <LinearLayout

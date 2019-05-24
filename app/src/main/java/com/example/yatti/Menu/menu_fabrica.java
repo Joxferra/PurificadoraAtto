@@ -16,8 +16,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
 import com.example.yatti.Fabricacion.control_botellones_fabrica;
+import com.example.yatti.Fabricacion.control_entrada_salida_fabrica;
+import com.example.yatti.Fabricacion.control_fabricacion_fabrica;
 import com.example.yatti.Fabricacion.control_medicion_fabrica;
 import com.example.yatti.Fabricacion.retrolavado_regeneracion_fabrica;
+import com.example.yatti.Fabricacion.venta_cliente_fabrica;
 import com.example.yatti.R;
 
 public class menu_fabrica extends AppCompatActivity
@@ -87,6 +90,8 @@ public class menu_fabrica extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_Entrada_fabrica) {
+            Intent Inicio = new Intent(this, control_entrada_salida_fabrica.class);
+            startActivity(Inicio);
 
         } else if (id == R.id.nav_Mediciones_fabrica) {
             Intent Inicio = new Intent(this, control_medicion_fabrica.class);
@@ -97,13 +102,15 @@ public class menu_fabrica extends AppCompatActivity
             startActivity(Inicio);
 
         } else if (id == R.id.nav_Control_fabrica) {
-
+            Intent Inicio = new Intent(this, control_fabricacion_fabrica.class);
+            startActivity(Inicio);
         }else if (id == R.id.nav_botellones_fabrica) {
             Intent Inicio = new Intent(this, control_botellones_fabrica.class);
             startActivity(Inicio);
 
         }else if (id == R.id.nav_ventas_fabrica) {
-
+            Intent Inicio = new Intent(this, venta_cliente_fabrica.class);
+             startActivity(Inicio);
         }else if (id == R.id.nav_censo_fabrica) {
 
         }else if (id == R.id.nav_segunda_parte_fabrica) {
