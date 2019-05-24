@@ -30,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/titulo_login"
-                    android:textColor="#036C9C"
+                    android:textColor="#D3E8F1"
                     android:textSize="36sp" />
             </LinearLayout>
 
