@@ -35,7 +35,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="@string/nombre_pantalla_solservi"
                     android:inputType="textPersonName" />
             </LinearLayout>
 
@@ -143,7 +142,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="113dp"
                 android:layout_marginTop="30dp"
                 android:orientation="horizontal">
 
@@ -157,7 +156,7 @@
                 <ImageButton
                     android:id="@+id/imageButton47"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="49dp"
                     android:layout_weight="1"
                     app:srcCompat="@android:drawable/checkbox_on_background" />
             </LinearLayout>

@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Fabricacion.control_fabricacion"></activity>
+        <activity
+            android:name=".Fabricacion.venta_cliente_fabrica"
+            android:parentActivityName=".Menu.menu_fabrica"
+            ></activity>
+        <activity
+            android:name=".Fabricacion.control_entrada_salida_fabrica"
+            android:parentActivityName=".Menu.menu_fabrica" />
+        <activity
+            android:name=".Fabricacion.control_fabricacion_fabrica"
+            android:parentActivityName=".Menu.menu_fabrica" />
         <activity
             android:name=".Administracion.control_material_admon"
             android:parentActivityName=".Menu.menu_administracion" />
@@ -75,7 +84,7 @@
             android:parentActivityName=".Menu.menu_ventas" />
         <activity
             android:name=".Ventas.venta_clientes_venta"
-            android:parentActivityName=".Menu.menu_ventas"></activity>
+            android:parentActivityName=".Menu.menu_ventas" />
         <activity
             android:name=".splash"
             android:screenOrientation="portrait">
