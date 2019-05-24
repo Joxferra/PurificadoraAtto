@@ -36,11 +36,13 @@
     <string name="cantidad_garrafon_lav">Cantidad de garrafones lavados:</string>
 
     <string name="cargo_entradas_salidas">Cargo:</string>
-    <string name="hora_entrada">Hoara de Entrada:</string>
-    <string name="hora_inicio_ruta">Hora de Inicio a Ruta:</string>
-    <string name="hora_venta">Hoara de Venta:</string>
-    <string name="hora_abastecimiento">Hora de Abastecimiento:</string>
-    <string name="hora_salida">Hora de Salida:</string>
+    <string name="hora_entrada">Hoara de entrada:</string>
+    <string name="hora_inicio_ruta">Hora de inicio a ruta:</string>
+    <string name="hora_venta">Hora de venta:</string>
+    <string name="hora_abastecimiento">Hora de abastecimiento:</string>
+    <string name="hora_salida">Hora de salida:</string>
+    <string name="nom">Nombre:</string>
+    <string name="fecha">Fecha:</string>
 
 
     <string name="fecha_quejas">Fecha:</string>
@@ -131,9 +133,6 @@
     <string name="sobrante_txt">Sobrante:</string>
 
     <string name="fecha_entrega_txt">Fecha de entrega:</string>
-
-
-
 
 
 </resources>

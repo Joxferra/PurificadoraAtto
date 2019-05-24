@@ -22,7 +22,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/txtFechaVen"
+                    android:id="@+id/txtPrecio_fab"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -69,7 +69,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/txtCargoVen"
+                    android:id="@+id/txtPrecio_cliente_fab"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nombre:" />
