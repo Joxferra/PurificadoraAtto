@@ -60,20 +60,13 @@
         <activity android:name=".Ventas.entrada_salida_venta"
             android:parentActivityName=".Menu.menu_ventas"/>
         <activity android:name=".Ventas.venta_clientes_venta"
-            android:parentActivityName=".Menu.menu_ventas"/>
+            android:parentActivityName=".Menu.menu_ventas">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-
-
-       <activity android:name=".splash">
-           android:name=".splash"
-        android:screenOrientation="portrait">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-       </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
 
 
