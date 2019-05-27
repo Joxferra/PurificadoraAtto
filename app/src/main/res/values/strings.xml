@@ -134,5 +134,24 @@
 
     <string name="fecha_entrega_txt">Fecha de entrega:</string>
 
+    <!--String pantalla de primera pantalla de censo de app purificadora-->
+    <string name="txtplanmarkiting">CENSO, PLAN DE MARKITING</string>
+    <string name="txtcuestion1">¿Cuál es tu opinión acerca del agua purificada embotellada?</string>
+    <string name="radiobutton1">Es una necesidad</string>
+    <string name="radiobutton2">Es un lujo</string>
+    <string name="radiobutton3">Es un gasto</string>
 
+    <string name="txtcuestion2">¿Qué tipo de agua se toma en tu casa?</string>
+    <string name="radiobutton4">Agua embotellada o de garrafon</string>
+    <string name="radiobutton5">Agua de filtro</string>
+    <string name="radiobutton6">Hervimos el agua</string>
+    <string name="radiobutton7">Agua de la llave</string>
+
+    <string name="txtcuestion3">¿En qué presentaciones suelen comprar agua purificada en tu hogar?</string>
+    <string name="radiobutton8">500 ml</string>
+    <string name="radiobutton9">1 ltro</string>
+    <string name="radiobutton10">1 ltro y 1/2</string>
+    <string name="radiobutton11">2 ltros</string>
+    <string name="radiobutton12">19 ltros</string>
+    <!--fin-->
 </resources>

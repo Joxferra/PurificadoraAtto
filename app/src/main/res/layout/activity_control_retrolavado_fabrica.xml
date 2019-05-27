@@ -6,197 +6,192 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="399dp"
-        android:layout_height="58dp"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="117dp">
-
-        <TextView
-            android:id="@+id/textView53"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txtnombrePersonalR"
-            android:textSize="18sp" />
-
-        <Spinner
-            android:id="@+id/spinner5"
-            android:layout_width="218dp"
-            android:layout_height="49dp"
-            android:layout_weight="1" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="397dp"
-        android:layout_height="56dp"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="175dp">
-
-        <TextView
-            android:id="@+id/textView54"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txtfecharetroege"
-            android:textSize="18sp" />
-
-        <EditText
-            android:id="@+id/etfechar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <ImageButton
-            android:id="@+id/ibfechar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="52dp"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="231dp">
-
-        <TextView
-            android:id="@+id/textView55"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txthoraretrorege"
-            android:textSize="18sp" />
-
-        <EditText
-            android:id="@+id/ethorar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
-        <ImageButton
-            android:id="@+id/ibhorar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_recent_history" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="398dp"
-        android:layout_height="97dp"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="293dp">
-
-        <TextView
-            android:id="@+id/textView56"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/txtretrolavado"
-            android:textSize="18sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="51dp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
 
-            <CheckBox
-                android:id="@+id/checkarena"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/checkarena"
-                android:textSize="18sp" />
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
 
-            <CheckBox
-                android:id="@+id/checkcarbon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/checkcarbon"
-                android:textSize="18sp"
-                tools:layout_editor_absoluteX="402dp"
-                tools:layout_editor_absoluteY="356dp" />
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txtnombrePersonalR"
+                    android:textSize="18sp" />
 
-            <CheckBox
-                android:id="@+id/checksuavizante"
-                android:layout_width="wrap_content"
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="218dp"
+                    android:layout_height="49dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/checksuavizante"
-                android:textSize="18sp" />
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txtfecharetroege"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/etfechar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <ImageButton
+                    android:id="@+id/ibfechar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/txthoraretrorege"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/ethorar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <ImageButton
+                    android:id="@+id/ibhorar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_recent_history" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtretrolavado"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkarena"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/checkarena"
+                        android:textSize="18sp" />
+
+                    <CheckBox
+                        android:id="@+id/checkcarbon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/checkcarbon"
+                        android:textSize="18sp"
+                        tools:layout_editor_absoluteX="402dp"
+                        tools:layout_editor_absoluteY="356dp" />
+
+                    <CheckBox
+                        android:id="@+id/checksuavizante"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/checksuavizante"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtregeneracion"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerregeneracion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/ibagregar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_save" />
+
+                <ImageButton
+                    android:id="@+id/ibeliminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_delete" />
+            </LinearLayout>
+
         </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="394dp"
-        android:layout_height="56dp"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="390dp">
-
-        <TextView
-            android:id="@+id/textView57"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/txtregeneracion"
-            android:textSize="18sp" />
-
-        <Spinner
-            android:id="@+id/spinnerregeneracion"
-            android:layout_width="264dp"
-            android:layout_height="50dp"
-            android:layout_weight="1" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView58"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtencabezadoretrolavado"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="37dp"
-        tools:ignore="MissingConstraints" />
-
-    <LinearLayout
-        android:layout_width="399dp"
-        android:layout_height="61dp"
-        android:orientation="horizontal"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="454dp">
-
-        <ImageButton
-            android:id="@+id/ibagregar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_save" />
-
-        <ImageButton
-            android:id="@+id/ibeliminar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@android:drawable/ic_menu_delete" />
-    </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
