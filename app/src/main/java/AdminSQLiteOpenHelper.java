@@ -10,6 +10,7 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
 
     }
 
+
     @Override
     public void onCreate(SQLiteDatabase db) {
         //TABLAS DE ADMINISTRACION
