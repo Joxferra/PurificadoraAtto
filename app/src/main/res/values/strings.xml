@@ -134,24 +134,71 @@
 
     <string name="fecha_entrega_txt">Fecha de entrega:</string>
 
-    <!--String pantalla de primera pantalla de censo de app purificadora-->
+    <!--String pantallas de censo de app purificadora(Fabrica) -->
     <string name="txtplanmarkiting">CENSO, PLAN DE MARKITING</string>
-    <string name="txtcuestion1">¿Cuál es tu opinión acerca del agua purificada embotellada?</string>
+    <string name="txtcuestion1">1. ¿Cuál es tu opinión acerca del agua purificada embotellada?</string>
     <string name="radiobutton1">Es una necesidad</string>
     <string name="radiobutton2">Es un lujo</string>
     <string name="radiobutton3">Es un gasto</string>
 
-    <string name="txtcuestion2">¿Qué tipo de agua se toma en tu casa?</string>
+    <string name="txtcuestion2">2. ¿Qué tipo de agua se toma en tu casa?</string>
     <string name="radiobutton4">Agua embotellada o de garrafon</string>
     <string name="radiobutton5">Agua de filtro</string>
     <string name="radiobutton6">Hervimos el agua</string>
     <string name="radiobutton7">Agua de la llave</string>
 
-    <string name="txtcuestion3">¿En qué presentaciones suelen comprar agua purificada en tu hogar?</string>
+    <string name="txtcuestion3">3. ¿En qué presentaciones suelen comprar agua purificada en tu hogar?</string>
     <string name="radiobutton8">500 ml</string>
     <string name="radiobutton9">1 ltro</string>
     <string name="radiobutton10">1 ltro y 1/2</string>
     <string name="radiobutton11">2 ltros</string>
     <string name="radiobutton12">19 ltros</string>
+
+    <string name="txtcuestion4">4. ¿De que purificadora de agua embotellada compras?</string>
+    <string name="radiobutton13">Purificadora Aquetzali</string>
+    <string name="radiobutton14">Purificadora Yaati</string>
+    <string name="radiobutton15">Purificadora de vida</string>
+    <string name="radiobutton16">Purificadora inmaculada Bety</string>
+    <string name="radiobutton17">Purificadora San jeronimo</string>
+    <string name="radiobutton18">Purificadora Jehova Jired</string>
+    <string name="radiobutton20">Otros</string>
+
+    <string name="txtcuestion5">5. ¿Qué tan frecuentemente compras agua embotellada?</string>
+    <string name="radiobutton21">Diarios</string>
+    <string name="radiobutton22">Cada 2 dias</string>
+    <string name="radiobutton23">Cada semana</string>
+
+    <string name="txtcuestion6">6. ¿Cuándo garrafones de agua compras con regularidad?</string>
+    <string name="radiobutton24">2</string>
+    <string name="radiobutton25">4</string>
+    <string name="radiobutton26">6</string>
+    <string name="radiobutton27">Otros</string>
+
+    <string name="txtcuestion7">7. ¿Qué es lo mas importante para ti al momento de eligir una marca de agua purificada?</string>
+    <string name="radiobutton28">El sabor del agua</string>
+    <string name="radiobutton29">Que la marca sea conocida</string>
+    <string name="radiobutton30">Que sea economico</string>
+    <string name="radiobutton31">Ninguna, no compro agua</string>
+    <string name="radiobutton32">El servicio</string>
+
+    <string name="txtcuestion8">8. ¿Has comprado garrafones de agua con la purificadora yaati?</string>
+    <string name="radiobutton33">Si</string>
+    <string name="radiobutton34">No</string>
+
+    <string name="txtcuestion9">9. ¿Cada cuándo pasa su proveedor a entregarle su agua?</string>
+    <string name="radiobutton35">Diarios</string>
+    <string name="radiobutton36">Cada 2 dias</string>
+    <string name="radiobutton37">Cada semana</string>
+
+
+    <string name="txtcuestion10">10. ¿Te gustaria que te premiaran por ser cliente frecuente de la purificadoras?</string>
+    <string name="radiobutton39">Si</string>
+    <string name="radiobutton40">No</string>
+
+    <string name="txtcuestion11">11. ¿Te gustaria que te ofrecieran agua de sabor?</string>
+    <string name="radiobutton41">Si</string>
+    <string name="radiobutton42">No</string>
+
+    <string name="txtcuestion12">11. ¿Qué sabor te interesa?</string>
     <!--fin-->
 </resources>

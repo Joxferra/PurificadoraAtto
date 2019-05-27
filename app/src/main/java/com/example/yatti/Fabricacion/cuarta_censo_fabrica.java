@@ -6,12 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.yatti.R;
 
-public class censo_fabrica extends AppCompatActivity {
-
+public class cuarta_censo_fabrica extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control_botellones_fabrica);
+        setContentView(R.layout.activity_cuarta_censo_fabrica);
         setupActionBar();
     }
     private void setupActionBar() {
