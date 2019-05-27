@@ -30,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/titulo_login"
-                    android:textColor="#036C9C"
+                    android:textColor="#C1C1C2"
                     android:textSize="36sp" />
 
             </LinearLayout>
@@ -57,6 +57,7 @@
                     android:ems="10"
                     android:hint="@string/usuario_login"
                     android:inputType="textPersonName"
+                    android:textColor="@color/colorAzulClaro"
                     android:textColorHint="#585858" />
 
                 <EditText
@@ -69,13 +70,14 @@
                     android:ems="10"
                     android:hint="@string/contraseña_login"
                     android:inputType="textPassword"
+                    android:textColor="@color/colorAzulClaro"
                     android:textColorHint="#585858" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="101dp"
+                android:layout_height="57dp"
                 android:layout_gravity="center"
                 android:orientation="vertical">
 
