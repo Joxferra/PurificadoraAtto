@@ -6,9 +6,13 @@ import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -18,7 +22,8 @@ import com.example.yatti.Menu.menu_fabrica;
 import com.example.yatti.Menu.menu_ventas;
 
 public class MainActivity extends Activity {
-
+    EditText mEtPwd;
+    CheckBox mCbShowPwd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,7 +68,26 @@ public class MainActivity extends Activity {
 
             }
         });
+        // get the password EditText
+        mEtPwd = (EditText) findViewById(R.id.pass);
+        // get the show/hide password Checkbox
+        mCbShowPwd = (CheckBox) findViewById(R.id.cbShowPwd);
 
+        // add onCheckedListener on checkbox
+        // when user clicks on this checkbox, this is the handler.
+        mCbShowPwd.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                // checkbox status is changed from uncheck to checked.
+                if (!isChecked) {
+                    // show password
+                    mEtPwd.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                } else {
+                    // hide password
+                    mEtPwd.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                }
+            }
+        });
 
     }
 

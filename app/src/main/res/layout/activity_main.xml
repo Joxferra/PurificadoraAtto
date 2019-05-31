@@ -58,8 +58,7 @@
                     android:hint="@string/usuario_login"
                     android:inputType="textPersonName"
                     android:textColor="@color/colorAzulClaro"
-                    android:textColorHint="#AFAFAF" />
-
+                    android:textColorHint="#787979" />
                 <EditText
                     android:id="@+id/pass"
                     android:layout_width="wrap_content"
@@ -67,12 +66,20 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:drawableLeft="@drawable/ic_action_pass"
-                    android:drawableRight="@drawable/ic_action_ojo"
                     android:ems="10"
                     android:hint="@string/contraseña_login"
                     android:inputType="textPassword"
                     android:textColor="@color/colorAzulClaro"
-                    android:textColorHint="#585858" />
+                    android:textColorHint="#787979" />
+                <CheckBox
+
+                    android:id="@+id/cbShowPwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_alignLeft="@+id/etPassword"
+                    android:layout_below="@+id/etPassword"
+                    android:text="ver contraseña"/>
 
             </LinearLayout>
 
@@ -112,9 +119,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="#0494B9"
+                    android:background="@color/boton"
                     android:cursorVisible="true"
-                    android:drawableLeft="@drawable/puerta"
+                    android:drawableLeft="@drawable/access"
+                    android:textColor="@color/blanco"
                     android:hint="@string/iniciar_sesion"
                     android:textSize="24sp" />
             </LinearLayout>
