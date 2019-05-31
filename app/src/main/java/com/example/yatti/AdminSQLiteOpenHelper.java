@@ -22,7 +22,7 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
         db.execSQL("CREATE TABLE control_entrada_admon(identrada INTEGER PRIMARY KEY AUTOINCREMENT, fecha text, cargo text, nombre text, hora_entrada text, hora_ruta text )");
         db.execSQL("CREATE TABLE control_fabricacion_admon(idfabricacion INTEGER PRIMARY KEY AUTOINCREMENT, fecha text, hora text, nombre text,lavados int, llenados int, entregados int,recibidos int, observaciones text) ");
         db.execSQL("CREATE TABLE control_material_admon(idmaterial INTEGER PRIMARY KEY AUTOINCREMENT )");
-        db.execSQL("CREATE TABLE control_personal_clientes_admon(idPeCl INTEGER PRIMARY KEY AUTOINCREMENT");
+        db.execSQL("CREATE TABLE control_personal_clientes_admon(idPeCl INTEGER PRIMARY KEY AUTOINCREMENT)");
         db.execSQL("CREATE TABLE cotrol_vendedor_geoposicion (idgeoposicion INTEGER PRIMARY KEY AUTOINCREMENT, nombre text, geoposicion text, kilometraje text, gasolina text )");
         db.execSQL("CREATE TABLE corte_dia_admon(idcorte INTEGER PRIMARY KEY AUTOINCREMENT, nombre text, fecha text, vendida text,  venta text, credito text, sobrante  text)");
         db.execSQL("CREATE TABLE inventario_admon (idinventario INTEGER PRIMARY KEY AUTOINCREMENT, nombre text, cantidad int, descripcion text, fecha text )");
